@@ -1,6 +1,6 @@
 from bisect import bisect
 from math import sqrt
-LIMIT = 1000000
+LIMIT = 2500000
 sieve = [True] * LIMIT
 primes = []
 for number in range(2, int(sqrt(LIMIT))):
